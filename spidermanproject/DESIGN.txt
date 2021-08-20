@@ -1,0 +1,21 @@
+Method left in Functions file:
+I left getImageList() in the Functions.java file because I felt like
+it worked independently from the other functions as well as the other
+images funcs.
+
+
+
+Ambiguous Methods:
+
+TransformNotFull/Full - I put these in Entity because a lot of the manipulation was
+                        involved in it but it could have also gone in WorldModel and
+                        EventScheduler since both create entities as well.
+
+createAnimationAction/createActivityAction - I put this in Entity because the methods are
+                                             going to create an animation or action for each
+                                             entity but it could have also been put in Action
+                                             since it's doing a type of action.
+
+create - This method went in Entity since it's creating a new unique entity but it could have gone
+         in WorldModel since it keep track of what's in the world in terms of
+         the entities and background elements.
